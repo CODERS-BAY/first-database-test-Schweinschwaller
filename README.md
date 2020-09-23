@@ -3,9 +3,9 @@
 Stelle Entitäten mittels Chen-Notation und Min,Max Notation dar.
 Wähle ein sinnvolles Beispiel!
 <pre>
-___________                         ___________
-| Camera   |_1,1____ shoots __1,*__ |   Foto  |
-|__________|                        |_________|
+___________                          ___________
+| Kamera   |_1,1____schießt____1,*__ |   Foto  |
+|__________|                         |_________|
 </pre>
 
 ## Aufgabe 2
@@ -73,7 +73,7 @@ ____________
 
 duale(binär)
 ____________                        ___________
-| Camera   |_1____ shoots ______N__ |   Foto  |
+| Kamera   |_1____ schießt _____N__ |   Foto  |
 |__________|                        |_________|
                    
 Trinäre
@@ -90,9 +90,9 @@ Was bedeutet der Begriff Kardinalität und welche Kardinalitäten gibt es?
 
 Sie geben an wie die Beziehung der Entitys sind
 
-1:1             Für Entity A gibt es genau eine Entity B und umgekehrt
-1:N (N:1)       Entity A hat viele Entity B und jede B Entity hat genau eine A 
-M:N             Eine Entity A hat viele Entity B und eine Entity B hat viele Entity A
+1:1             Ein Ehepartner hat genau einen Ehepartner
+1:N (N:1)       Eine Kamera schießt viele Fotos, aber ein Foto wurde genau nur von einer Kamera geschoßen
+M:N             Ein Kunde kauft viele Artikel und ein Artikel wird von vielen Kunden gekauft
 
 ## Aufgabe 10
 Was bedeutet der Begriff Datenintegrität und worin unterscheidet sich Integrität und referentielle Integrität?
