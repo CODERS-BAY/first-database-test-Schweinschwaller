@@ -13,9 +13,9 @@ Kann eine Beziehung Attribute haben?
 Wenn ja, wie stelle ich es im ERD dar?
 <pre>
 ___________                          _____________
-| Lehrer  |_1___ teach subject ___N__|  Schüler  |
+| Lehrer  |_1___ lehrt subject ___N__|  Schüler  |
 |_________|           |              |___________|
-                    Mark
+                    Note
 </pre>
 ## Aufgabe 3
 Welche Codd'schen Anforderungen gibt es (Nenne mindestens 5)
