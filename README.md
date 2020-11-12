@@ -115,6 +115,10 @@ Schwache Entitäten sind nur in Kombination mit dem Schlüssel der starken Entit
 ## Aufgabe 13
 Welche Grundregeln gibt es im Relationenmodell? (Nenne mindestens 4)
 
+Zeilen anordung ist ohne Bedeutung
+Spalten anordung ist ohne Bedeutung
+Datenwert sind atomar
+Es Existiert immer nur ein Primärschlüssel.
 Bei der Textuelle notation in den die Entity mit den Attribute und den Datentypen
 PrimärSchlüssel sind unterstriechen.
 FremdSchlüssel sind strichliert unterstriechen.
